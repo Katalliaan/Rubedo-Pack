@@ -1,190 +1,177 @@
 {"entries":
     [
-    	{
-    		"item":"Steamcraft:steamedFish",
-    		"name":"foodCookedFish"
-    	},
-    	
-    	{
-    		"item":"Steamcraft:steamedChicken",
-    		"name":"foodCookedMeat"
-    	},
-		
+		// foodRawFish
 		{
-    		"item":"minecraft:chicken",
-    		"name":"foodRawChicken"
-    	},
-		
-		{
-    		"item":"Oceancraft:RawBird",
-    		"name":"foodRawChicken"
-    	},
-		
-		{
-    		"item":"minecraft:cooked_chicken",
-    		"name":"foodCookedChicken"
-    	},
-		
-		{
-    		"item":"Steamcraft:steamedChicken",
-    		"name":"foodCookedChicken"
-    	},
-		
-		{
-    		"item":"Oceancraft:CookedBird",
-    		"name":"foodCookedChicken"
-    	},
-    	
-    	{
-    		"item":"Steamcraft:steamedBeef",
-    		"name":"foodCookedMeat"
-    	},
-    	
-    	{
-    		"item":"Steamcraft:steamedPorkchop",
-    		"name":"foodCookedMeat"
-    	},
-		
-		{
-    		"item":"Thaumcraft:TripleMeatTreat",
-    		"name":"foodCookedMeat"
-    	},
-    	
-    	{
-    		"item":"minecraft:carrot",
-    		"name":"foodCrop"
-    	},
-
-    	{
-    		"item":"minecraft:potato",
-    		"name":"foodCrop"
-    	},
-
-    	{
-    		"item":"minecraft:porkchop",
-    		"name":"foodRawMeat"
-    	},
-
-    	{
-    		"item":"minecraft:beef",
-    		"name":"foodRawMeat"
-    	},
-
-    	{
-    		"item":"minecraft:chicken",
-    		"name":"foodRawMeat"
-    	},
-		
-		{
-    		"item":"witchery:ingredient;158",
-    		"name":"foodRawMeat"
-    	},
-
-    	{
-    		"item":"minecraft:cooked_porkchop",
-    		"name":"foodCookedMeat"
-    	},
-
-    	{
-    		"item":"minecraft:cooked_beef",
-    		"name":"foodCookedMeat"
-    	},
-
-    	{
-    		"item":"minecraft:cooked_chicken",
-    		"name":"foodCookedMeat"
-    	},
-		
-		{
-    		"item":"witchery:ingredient;159",
-    		"name":"foodCookedMeat"
-    	},
-
-    	{
     		"item":"minecraft:fish;0",
     		"name":"foodRawFish"
     	},
-
     	{
     		"item":"minecraft:fish;1",
     		"name":"foodRawFish"
-    	},
-		
+    	},		
 		{
     		"item":"minecraft:fish;2",
     		"name":"foodRawFish"
-    	},
-		
+    	},		
 		{
     		"item":"minecraft:fish;3",
     		"name":"foodRawFish"
     	},
-
-    	{
-    		"item":"minecraft:cooked_fished;0",
-    		"name":"foodCookedFish"
-    	},
-
-    	{
-    		"item":"minecraft:cooked_fished;1",
-    		"name":"foodCookedFish"
-    	},
-
-    	{
-    		"item":"minecraft:apple",
-    		"name":"foodFruit"
-    	},
-
-    	{
-    		"item":"minecraft:melon",
-    		"name":"foodFruit"
-    	},
-
-        {
-            "item":"minecraft:carrot",
-            "name":"foodVeggie"
-        },
-
-        {
-            "item":"minecraft:potato",
-            "name":"foodVeggie"
-        },
-		
-		{
-            "item":"enhancedbiomes:enhancedbiomes.item.saguaroFruit",
-            "name":"foodFruit"
-        },
 		{
             "item":"Oceancraft:RawPerch",
             "name":"foodRawFish"
         },
 		{
+            "item":"Oceancraft:RawCrab",
+            "name":"foodRawFish"
+        },
+		
+		// foodCookedFish
+    	{
+    		"item":"Steamcraft:steamedFish",
+    		"name":"foodCookedFish"
+    	},
+		{
+    		"item":"minecraft:cooked_fished;0",
+    		"name":"foodCookedFish"
+    	},
+    	{
+    		"item":"minecraft:cooked_fished;1",
+    		"name":"foodCookedFish"
+    	},
+		{
             "item":"Oceancraft:CookedPerch",
             "name":"foodCookedFish"
         },
+		{
+            "item":"Oceancraft:CookedCrab",
+            "name":"foodCookedFish"
+        },
+		
+		// foodRawMeat
+		{
+    		"item":"minecraft:porkchop",
+    		"name":"foodRawMeat"
+    	},
+		{
+    		"item":"minecraft:beef",
+    		"name":"foodRawMeat"
+    	},
+		{
+    		"item":"minecraft:chicken",
+    		"name":"foodRawMeat"
+    	},
+		{
+    		"item":"witchery:ingredient;158",
+    		"name":"foodRawMeat"
+    	},
 		{
             "item":"Oceancraft:RawTurtleMeat",
             "name":"foodRawMeat"
         },
 		{
-            "item":"Oceancraft:CookedTurtleMeat",
-            "name":"foodCookedMeat"
-        },
-		{
             "item":"Oceancraft:RawBird",
             "name":"foodRawMeat"
+        },
+		
+		// foodCookedMeat    	
+    	{
+    		"item":"Steamcraft:steamedChicken",
+    		"name":"foodCookedMeat"
+    	},
+		{
+    		"item":"Steamcraft:steamedBeef",
+    		"name":"foodCookedMeat"
+    	},
+		{
+    		"item":"Steamcraft:steamedPorkchop",
+    		"name":"foodCookedMeat"
+    	},
+		{
+    		"item":"Thaumcraft:TripleMeatTreat",
+    		"name":"foodCookedMeat"
+    	},
+		{
+    		"item":"minecraft:cooked_porkchop",
+    		"name":"foodCookedMeat"
+    	},
+		{
+    		"item":"minecraft:cooked_beef",
+    		"name":"foodCookedMeat"
+    	},
+    	{
+    		"item":"minecraft:cooked_chicken",
+    		"name":"foodCookedMeat"
+    	},		
+		{
+    		"item":"witchery:ingredient;159",
+    		"name":"foodCookedMeat"
+    	},
+		{
+            "item":"Oceancraft:CookedTurtleMeat",
+            "name":"foodCookedMeat"
         },
 		{
             "item":"Oceancraft:CookedBird",
             "name":"foodCookedMeat"
         },
+		
+		// foodRawChicken		
 		{
-            "item":"Oceancraft:RawCrab",
-            "name":"foodRawFish"
+    		"item":"minecraft:chicken",
+    		"name":"foodRawChicken"
+    	},		
+		{
+    		"item":"Oceancraft:RawBird",
+    		"name":"foodRawChicken"
+    	},
+		
+		// foodCookedChicken		
+		{
+    		"item":"minecraft:cooked_chicken",
+    		"name":"foodCookedChicken"
+    	},		
+		{
+    		"item":"Steamcraft:steamedChicken",
+    		"name":"foodCookedChicken"
+    	},		
+		{
+    		"item":"Oceancraft:CookedBird",
+    		"name":"foodCookedChicken"
+    	},
+    	
+    	// foodCrop
+    	{
+    		"item":"minecraft:carrot",
+    		"name":"foodCrop"
+    	},
+    	{
+    		"item":"minecraft:potato",
+    		"name":"foodCrop"
+    	},
+
+		// foodFruit
+    	{
+    		"item":"minecraft:apple",
+    		"name":"foodFruit"
+    	},
+    	{
+    		"item":"minecraft:melon",
+    		"name":"foodFruit"
+    	},
+		{
+            "item":"enhancedbiomes:enhancedbiomes.item.saguaroFruit",
+            "name":"foodFruit"
         },
-		{
-            "item":"Oceancraft:CookedCrab",
-            "name":"foodCookedFish"
+		
+		// foodVeggie
+        {
+            "item":"minecraft:carrot",
+            "name":"foodVeggie"
+        },
+        {
+            "item":"minecraft:potato",
+            "name":"foodVeggie"
         }
     ]
 }

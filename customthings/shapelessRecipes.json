@@ -1,55 +1,60 @@
 {"data":
     [
+		// Sandwich
 	    {
 			"input":["bread", "foodCookedMeat"],
 			"output": "kitchenCraftFoods:meat;0"
 		},
 		
+		// Curry
 		{
 			"input":["cropRice", "carrot", "foodCookedChicken"],
 			"output": "kitchenCraftFoods:meat;2"
 		},
 		
+		// Seafood
 		{
 			"input":["cropRice", "cropBambooshoot", "foodCookedFish"],
 			"output": "kitchenCraftFoods:veggie;1"
 		},
 		
+		// Stew
 		{
 			"input":["potato", "pumpkin", "cooked_beef"],
 			"output": "kitchenCraftFoods:meat;3"
 		},
 		
+		// Casserole
 		{
 			"input":["wheat", "apple", "cooked_porkchop"],
 			"output": "kitchenCraftFoods:meat;4"
 		},
 		
+		// Roast
 		{
 			"input":["cooked_beef", "dropHoney", "carrot", "potato", "brown_mushroom"],
 			"output": "kitchenCraftFoods:meat;5"
-		},
-		
+		},		
 		{
 			"input":["cooked_porkchop", "dropHoney", "carrot", "potato", "brown_mushroom"],
 			"output": "kitchenCraftFoods:meat;5"
 		},
 		
+		// Salad
 		{
 			"input":["foodCookedChicken", "apple", "melon", "cropGrape", "cropRice"],
 			"output": "kitchenCraftFoods:veggie;2"
-		},
-		
+		},		
 		{
 			"input":["foodCookedFish", "apple", "melon", "cropGrape", "cropRice"],
 			"output": "kitchenCraftFoods:veggie;2"
 		},
 		
+		// Witchery Raw Meaty Stew
 		{
 			"input":["witchery:garlic", "foodRawMeat", "potato", "carrot", "bowl", "brown_mushroom"],
 			"output": "witchery:stewraw"
-		},
-		
+		},		
 		{
 			"input":["witchery:garlic", "foodRawFish", "potato", "carrot", "bowl", "brown_mushroom"],
 			"output": "witchery:stewraw"
