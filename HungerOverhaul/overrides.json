@@ -8,14 +8,47 @@
             // [optional] the metadata value of the item (default: wildcard (any metadata))
             "meta": 0
         },
+		
 		{
 			"name" : "Oceancraft:BigFishCooked"
 		},
+		
 		{
-			"name" : "kitchenCraftFoods:veggie"
+			"name" : "kitchenCraftFoods:veggie",
+			"meta" : 0
 		},
 		{
-			"name" : "kitchenCraftFoods:meat"
+			"name" : "kitchenCraftFoods:veggie",
+			"meta" : 1
+		},
+		{
+			"name" : "kitchenCraftFoods:veggie",
+			"meta" : 2
+		},
+		
+		{
+			"name" : "kitchenCraftFoods:meat",
+			"meta" : 0
+		},
+		{
+			"name" : "kitchenCraftFoods:meat",
+			"meta" : 1
+		},
+		{
+			"name" : "kitchenCraftFoods:meat",
+			"meta" : 2
+		},
+		{
+			"name" : "kitchenCraftFoods:meat",
+			"meta" : 3
+		},
+		{
+			"name" : "kitchenCraftFoods:meat",
+			"meta" : 4
+		},
+		{
+			"name" : "kitchenCraftFoods:meat",
+			"meta" : 5
 		}
     ]
 }
