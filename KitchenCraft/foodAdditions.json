@@ -1,57 +1,57 @@
 {"foods":
 	[{
 		"name": "sandwich",
-		"food": "20",
+		"food": "5",
 		"isMeat": true
 	},
 	
 	{
 		"name": "sushi",
-		"food": "20",
+		"food": "5",
 		"isMeat": false,
 		"makeSeed": false
 	},
 	
 	{
 		"name": "pot_pie",
-		"food": "24",
+		"food": "6",
 		"isMeat": true
 	},
 	
 	{
 		"name": "curry",
-		"food": "44",
+		"food": "11",
 		"isMeat": true
 	},
 	
 	{
 		"name": "seafood",
-		"food": "44",
+		"food": "11",
 		"isMeat": false,
 		"makeSeed": false
 	},
 	
 	{
 		"name": "stew",
-		"food": "44",
+		"food": "11",
 		"isMeat": true
 	},
 	
 	{
 		"name": "casserole",
-		"food": "44",
+		"food": "11",
 		"isMeat": true
 	},
 	
 	{
 		"name": "roast",
-		"food": "48",
+		"food": "12",
 		"isMeat": true
 	},
 	
 	{
 		"name": "salad",
-		"food": "48",
+		"food": "12",
 		"isMeat": false,
 		"makeSeed": false
 	}]
