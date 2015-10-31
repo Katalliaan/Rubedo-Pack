@@ -1,0 +1,15 @@
+{
+    // a list of foods that should not have their food values modified by HO
+    // the foods in this list will not have their values changed by HO at all (even if specified in the 'foods' section above)
+    "foodsBlacklist": [
+        {
+            // the name of the item in "mod:name" format
+            "name": "witchery:stew",
+            // [optional] the metadata value of the item (default: wildcard (any metadata))
+            "meta": 0
+        },
+		{
+			"name" : "Oceancraft:BigFishCooked"
+		}
+    ]
+}

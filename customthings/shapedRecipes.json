@@ -1,0 +1,45 @@
+{"data": 
+	[
+		{
+			"input": [["cropRice", "cropRice", "cropRice"],
+					  ["cropRice", "foodRawFish", "cropRice"],
+					  ["cropRice", "cropRice", "cropRice"]],
+			"output": "kitchenCraftFoods:veggie;0"
+		},
+		
+		{
+			"input": [["cropRice", "cropRice", "cropRice"],
+					  ["cropRice", "brown_mushroom", "cropRice"],
+					  ["cropRice", "cropRice", "cropRice"]],
+			"output": "kitchenCraftFoods:veggie;0"
+		},
+		
+		{
+			"input": [["foodCookedMeat", "milk_bucket", "foodCookedMeat"],
+					  ["brown_mushroom", "egg", "brown_mushroom"],
+					  ["wheat", "wheat", "wheat"]],
+			"output": "kitchenCraftFoods:meat;1"
+		},
+		
+		{
+			"input": [["null", "Steamcraft:pipe", "null"],
+					  ["cobblestone", "Steamcraft:pipe", "cobblestone"],
+					  ["cobblestone", "Steamcraft:pipe", "cobblestone"]],
+			"output": "Steamcraft:charger"
+		},
+		
+		{
+			"input": [["cobblestone", "plateSteamcraftIron", "cobblestone"],
+					  ["cobblestone", "null", "cobblestone"],
+					  ["cobblestone", "cobblestone", "cobblestone"]],
+			"output": "Steamcraft:engineering"
+		},
+		
+		{
+			"input": [["ingotBrick", "null", "minecraft:string"],
+					  ["itemLeather", "stickWood", "itemLeather"],
+					  ["itemLeather", "itemLeather", "itemLeather"]],
+			"output": "Steamcraft:survivalist"
+		}
+	]
+}

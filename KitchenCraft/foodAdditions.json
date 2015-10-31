@@ -1,0 +1,58 @@
+{"foods":
+	[{
+		"name": "sandwich",
+		"food": "20",
+		"isMeat": true
+	},
+	
+	{
+		"name": "sushi",
+		"food": "20",
+		"isMeat": false,
+		"makeSeed": false
+	},
+	
+	{
+		"name": "pot_pie",
+		"food": "24",
+		"isMeat": true
+	},
+	
+	{
+		"name": "curry",
+		"food": "44",
+		"isMeat": true
+	},
+	
+	{
+		"name": "seafood",
+		"food": "44",
+		"isMeat": false,
+		"makeSeed": false
+	},
+	
+	{
+		"name": "stew",
+		"food": "44",
+		"isMeat": true
+	},
+	
+	{
+		"name": "casserole",
+		"food": "44",
+		"isMeat": true
+	},
+	
+	{
+		"name": "roast",
+		"food": "48",
+		"isMeat": true
+	},
+	
+	{
+		"name": "salad",
+		"food": "48",
+		"isMeat": false,
+		"makeSeed": false
+	}]
+}
