@@ -14,32 +14,32 @@
 	
 	{
 		"name": "pot_pie",
-		"food": "6",
+		"food": "8",
 		"isMeat": true
 	},
 	
 	{
 		"name": "curry",
-		"food": "11",
+		"food": "9",
 		"isMeat": true
 	},
 	
 	{
 		"name": "seafood",
-		"food": "11",
+		"food": "9",
 		"isMeat": false,
 		"makeSeed": false
 	},
 	
 	{
 		"name": "stew",
-		"food": "11",
+		"food": "9",
 		"isMeat": true
 	},
 	
 	{
 		"name": "casserole",
-		"food": "11",
+		"food": "9",
 		"isMeat": true
 	},
 	
