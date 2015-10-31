@@ -40,6 +40,100 @@
 					  ["itemLeather", "stickWood", "itemLeather"],
 					  ["itemLeather", "itemLeather", "itemLeather"]],
 			"output": "Steamcraft:survivalist"
+		},
+		
+		// Blood Magic Oredictionary recipes
+		{
+			"input": [["stone", "null", "stone"],
+					  ["stone", "minecraft:furnace", "stone"],
+					  ["ingotGold", "gemDiamond", "ingotGold"]],
+			"output": "AWWayofTime:Altar"
+		},
+		{
+			"input": [["stone", "stone", "stone"],
+					  ["AWWayofTime:blankSlate", "bloodOrbWeak", "AWWayofTime:blankSlate"],
+					  ["stone", "stone", "stone"]],
+			"output": "AWWayofTime:AlchemicalWizardrybloodRune;0"
+		},
+		{
+			"input": [["stone", "minecraft:bucket", "stone"],
+					  ["minecraft:bucket", "bloodOrbMagician", "minecraft:bucket"],
+					  ["stone", "AWWayofTime:imbuedSlate", "stone"]],
+			"output": "AWWayofTime:AlchemicalWizardrybloodRune;1"
+		},
+		{
+			"input": [["stone", "minecraft:water_bucket", "stone"],
+					  ["minecraft:water_bucket", "bloodOrbMagician", "minecraft:water_bucket"],
+					  ["stone", "AWWayofTime:imbuedSlate", "stone"]],
+			"output": "AWWayofTime:AlchemicalWizardrybloodRune;2"
+		},
+		{
+			"input": [["stone", "bloodOrbWeak", "stone"],
+					  ["AWWayofTime:demonicSlate", "bloodOrbMaster", "AWWayofTime:demonicSlate"],
+					  ["stone", "bloodOrbWeak", "stone"]],
+			"output": "AWWayofTime:AlchemicalWizardrybloodRune;3"
+		},
+		{
+			"input": [["blockObsidian", "AWWayofTime:demonicSlate", "blockObsidian"],
+					  ["minecraft:bucket", "AWWayofTime:AlchemicalWizardrybloodRune;1", "minecraft:bucket"],
+					  ["blockObsidian", "bloodOrbMaster", "blockObsidian"]],
+			"output": "AWWayofTime:AlchemicalWizardrybloodRune;4"
+		},
+		{
+			"input": [["minecraft:bucket", "AWWayofTime:bloodMagicBaseItems;27", "minecraft:bucket"],
+					  ["ingotGold", "AWWayofTime:speedRune", "ingotGold"],
+					  ["minecraft:bucket", "bloodOrbArchmage", "minecraft:bucket"]],
+			"output": "AWWayofTime:AlchemicalWizardrybloodRune;5"
+		},
+		{
+			"input": [["stone", "AWWayofTime:blankSlate", "stone"],
+					  ["minecraft:sugar", "AWWayofTime:AlchemicalWizardrybloodRune;0", "minecraft:sugar"],
+					  ["stone", "AWWayofTime:blankSlate", "stone"]],
+			"output": "AWWayofTime:speedRune"
+		},
+		{
+			"input": [["stone", "AWWayofTime:reinforcedSlate", "stone"],
+					  ["ingotGold", "bloodOrbApprentice", "ingotGold"],
+					  ["stone", "AWWayofTime:reinforcedSlate", "stone"]],
+			"output": "AWWayofTime:runeOfSacrifice"
+		},
+		{
+			"input": [["stone", "AWWayofTime:reinforcedSlate", "stone"],
+					  ["dustGlowstone", "bloodOrbApprentice", "dustGlowstone"],
+					  ["stone", "AWWayofTime:reinforcedSlate", "stone"]],
+			"output": "AWWayofTime:runeOfSelfSacrifice"
+		},
+		{
+			"input": [["AWWayofTime:bloodMagicBaseItems;15", "minecraft:glass", "AWWayofTime:bloodMagicBaseItems;15"],
+					  ["minecraft:glass", "AWWayofTime:bloodMagicBaseAlchemyItems;3", "minecraft:glass"],
+					  ["cobblestone", "cobblestone", "cobblestone"]],
+			"output": "AWWayofTime:blockAlchemicCalcinator"
+		},
+		{
+			"input": [["minecraft:glass", "minecraft:glass", "minecraft:glass"],
+					  ["minecraft:glass", "AWWayofTime:bloodMagicBaseAlchemyItems;4", "minecraft:glass"],
+					  ["slabWood", "slabWood", "slabWood"]],
+			"output": "AWWayofTime:blockCrystalBelljar"
+		},
+		{
+			"input": [["ingotIron", "null", "ingotIron"],
+					  ["slabStone", "ingotIron", "slabStone"],
+					  ["null", "stone", "null"]],
+			"output": "AWWayofTime:blockCrucible"
+		},
+		
+		// Sanguimancy Oredictionary recipes
+		{
+			"input": [["stone", "AWWayofTime:AlchemicalWizardrybloodRune", "stone"],
+					  ["stone", "minecraft:comparator", "stone"],
+					  ["stone", "stone", "stone"]],
+			"output": "Sanguimancy:BlockBloodInterface"
+		},
+		{
+			"input": [["null", "minecraft:skull;1", "null"],
+					  ["null", "stone", "null"],
+					  ["gemDiamond", "stone", "ingotGold"]],
+			"output": "Sanguimancy:resource;1"
 		}
 	]
 }
