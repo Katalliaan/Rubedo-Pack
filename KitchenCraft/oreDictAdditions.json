@@ -139,6 +139,38 @@
     		"item":"Oceancraft:CookedBird",
     		"name":"foodCookedChicken"
     	},
+		
+		// foodRawPorkchop
+		{
+			"item":"minecraft:porkchop",
+			"name":"foodRawPorkchop"
+		},
+		
+		// foodCookedPorkchop
+		{
+			"item":"minecraft:cooked_porkchop",
+			"name":"foodCookedPorkchop"
+		},
+		{
+    		"item":"Steamcraft:steamedPorkchop",
+    		"name":"foodCookedPorkchop"
+    	},
+		
+		// foodRawBeef
+		{
+			"item":"minecraft:beef",
+			"name":"foodRawBeef"
+		},
+		
+		// foodCookedBeef
+		{
+			"item":"minecraft:cooked_beef",
+			"name":"foodCookedBeef"
+		},
+		{
+    		"item":"Steamcraft:steamedBeef",
+    		"name":"foodCookedBeef"
+    	},
     	
     	// foodCrop
     	{

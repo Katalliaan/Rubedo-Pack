@@ -20,23 +20,23 @@
 		
 		// Stew
 		{
-			"input":["potato", "pumpkin", "cooked_beef"],
+			"input":["potato", "pumpkin", "foodCookedBeef"],
 			"output": "kitchenCraftFoods:meat;3"
 		},
 		
 		// Casserole
 		{
-			"input":["wheat", "apple", "cooked_porkchop"],
+			"input":["wheat", "apple", "foodCookedPorkchop"],
 			"output": "kitchenCraftFoods:meat;4"
 		},
 		
 		// Roast
 		{
-			"input":["cooked_beef", "dropHoney", "carrot", "potato", "brown_mushroom"],
+			"input":["foodCookedBeef", "dropHoney", "carrot", "potato", "brown_mushroom"],
 			"output": "kitchenCraftFoods:meat;5"
 		},		
 		{
-			"input":["cooked_porkchop", "dropHoney", "carrot", "potato", "brown_mushroom"],
+			"input":["foodCookedPorkchop", "dropHoney", "carrot", "potato", "brown_mushroom"],
 			"output": "kitchenCraftFoods:meat;5"
 		},
 		
