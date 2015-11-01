@@ -104,6 +104,37 @@
 			"output": "AWWayofTime:runeOfSelfSacrifice"
 		},
 		{
+			"input": [["blockObsidian", "AWWayofTime:reinforcedSlate", "blockObsidian"],
+					  ["AWWayofTime:reinforcedSlate", "bloodOrbApprentice", "AWWayofTime:reinforcedSlate"],
+					  ["blockObsidian", "AWWayofTime:reinforcedSlate", "blockObsidian"]],
+			"output": "AWWayofTime:ritualStone",
+			"outputAmount": 4
+		},
+		{
+			"input": [["blockObsidian", "AWWayofTime:ritualStone", "blockObsidian"],
+					  ["AWWayofTime:ritualStone", "bloodOrbApprentice", "AWWayofTime:ritualStone"],
+					  ["blockObsidian", "AWWayofTime:ritualStone", "blockObsidian"]],
+			"output": "AWWayofTime:masterStone"
+		},
+		{
+			"input": [["blockObsidian", "stone", "blockObsidian"],
+					  ["stone", "bloodOrbWeak", "stone"],
+					  ["blockObsidian", "stone", "blockObsidian"]],
+			"output": "AWWayofTime:imperfectRitualStone"
+		},
+		{
+			"input": [["stone", "AWWayofTime:bloodSocket", "stone"],
+					  ["AWWayofTime:bloodSocket", "bloodOrbMagician", "AWWayofTime:bloodSocket"],
+					  ["stone", "AWWayofTime:bloodSocket", "stone"]],
+			"output": "AWWayofTime:armourForge"
+		},
+		{
+			"input": [["minecraft:wool;14", "minecraft:wool;14", "minecraft:wool;14"],
+					  ["stone", "AWWayofTime:AlchemicalWizardrybloodRune", "stone"],
+					  ["stone", "bloodOrbApprentice", "stone"]],
+			"output": "AWWayofTime:blockHomHeart"
+		},
+		{
 			"input": [["AWWayofTime:bloodMagicBaseItems;15", "minecraft:glass", "AWWayofTime:bloodMagicBaseItems;15"],
 					  ["minecraft:glass", "AWWayofTime:bloodMagicBaseAlchemyItems;3", "minecraft:glass"],
 					  ["cobblestone", "cobblestone", "cobblestone"]],
@@ -121,10 +152,52 @@
 					  ["null", "stone", "null"]],
 			"output": "AWWayofTime:blockCrucible"
 		},
+		{
+			"input": [["stone", "minecraft:iron_pickaxe", "stone"],
+					  ["minecraft:iron_shovel", "AWWayofTime:reinforcedSlate", "minecraft:iron_axe"],
+					  ["stone", "bloodOrbApprentice", "stone"]],
+			"output": "AWWayofTime:sigilOfTheFastMiner"
+		},
+		{
+			"input": [["AWWayofTime:blankSlate", "stone", "AWWayofTime:blankSlate"],
+					  ["stone", "AWWayofTime:imbuedSlate", "stone"],
+					  ["AWWayofTime:blankSlate", "bloodOrbMagician", "AWWayofTime:blankSlate"]],
+			"output": "AWWayofTime:sigilOfHolding"
+		},
+		{
+			"input": [["stone", "stone", "stone"],
+					  ["stone", "AWWayofTime:imbuedSlate", "stone"],
+					  ["minecraft:soul_sand", "bloodOrbMagician", "minecraft:soul_sand"]],
+			"output": "AWWayofTime:sigilOfTheBridge"
+		},
+		{
+			"input": [["stone", "AWWayofTime:bloodMagicBaseItems;0", "null"],
+					  ["null", "AWWayofTime:bloodMagicBaseAlchemyItems;3", "AWWayofTime:bloodMagicBaseItems;0"],
+					  ["stickWood", "null", "stone"]],
+			"output": "AWWayofTime:itemAttunedCrystal"
+		},
+		{
+			"input": [["null", "minecraft:string", "logWood"],
+					  ["minecraft:string", "logWood", "minecraft:string"],
+					  ["logWood", "minecraft:string", "null"]],
+			"output": "AWWayofTime:bloodMagicBaseItems;3"
+		},
+		{
+			"input": [["null", "stone", "ingotIron"],
+					  ["stone", "null", "AWWayofTime:simpleCatalyst"],
+					  ["null", "stone", "ingotIron"]],
+			"output": "AWWayofTime:bloodMagicBaseItems;9"
+		},
+		{
+			"input": [["stickWood", "stone", "stickWood"],
+					  ["stone", "AWWayofTime:bloodMagicBaseItems;32", "stone"],
+					  ["stickWood", "stone", "stickWood"]],
+			"output": "AWWayofTime:outputRoutingFocus"
+		},
 		
 		// Sanguimancy Oredictionary recipes
 		{
-			"input": [["stone", "AWWayofTime:AlchemicalWizardrybloodRune", "stone"],
+			"input": [["stone", "AWWayofTime:AlchemicalWizardrybloodRune;0", "stone"],
 					  ["stone", "minecraft:comparator", "stone"],
 					  ["stone", "stone", "stone"]],
 			"output": "Sanguimancy:BlockBloodInterface"
