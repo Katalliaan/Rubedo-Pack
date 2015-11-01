@@ -104,19 +104,6 @@
 			"output": "AWWayofTime:runeOfSelfSacrifice"
 		},
 		{
-			"input": [["blockObsidian", "AWWayofTime:reinforcedSlate", "blockObsidian"],
-					  ["AWWayofTime:reinforcedSlate", "bloodOrbApprentice", "AWWayofTime:reinforcedSlate"],
-					  ["blockObsidian", "AWWayofTime:reinforcedSlate", "blockObsidian"]],
-			"output": "AWWayofTime:ritualStone",
-			"outputAmount": 4
-		},
-		{
-			"input": [["blockObsidian", "AWWayofTime:ritualStone", "blockObsidian"],
-					  ["AWWayofTime:ritualStone", "bloodOrbApprentice", "AWWayofTime:ritualStone"],
-					  ["blockObsidian", "AWWayofTime:ritualStone", "blockObsidian"]],
-			"output": "AWWayofTime:masterStone"
-		},
-		{
 			"input": [["blockObsidian", "stone", "blockObsidian"],
 					  ["stone", "bloodOrbWeak", "stone"],
 					  ["blockObsidian", "stone", "blockObsidian"]],
