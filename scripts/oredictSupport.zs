@@ -218,15 +218,7 @@ recipes.addShaped(<Sanguimancy:BlockBloodInterface>,
 	[[stone, <AWWayofTime:AlchemicalWizardrybloodRune:0>, stone],
 	 [stone, <minecraft:comparator>, stone],
 	 [stone, stone, stone]]);
-
-// Sanguimancy oredict fixes
-recipes.remove(<Sanguimancy:BlockBloodInterface>);
-recipes.addShaped(<Sanguimancy:BlockBloodInterface>,
-	[[stone, <AWWayofTime:AlchemicalWizardrybloodRune:0>, stone],
-	 [stone, <minecraft:comparator>, stone],
-	 [stone, stone, stone]]);
-
-// Sanguimancy oredict fixes
+	 
 //recipes.remove(<Sanguimancy:resource:1>);
 recipes.addShaped(<Sanguimancy:resource:1>,
 	[[null, <minecraft:skull:1>, null],
