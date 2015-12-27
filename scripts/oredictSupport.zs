@@ -219,7 +219,7 @@ recipes.addShaped(<Sanguimancy:BlockBloodInterface>,
 	 [stone, <minecraft:comparator>, stone],
 	 [stone, stone, stone]]);
 	 
-//recipes.remove(<Sanguimancy:resource:1>);
+recipes.remove(<Sanguimancy:resource:1>);
 recipes.addShaped(<Sanguimancy:resource:1>,
 	[[null, <minecraft:skull:1>, null],
 	 [null, stone, null],
