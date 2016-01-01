@@ -218,10 +218,16 @@ recipes.addShaped(<Sanguimancy:BlockBloodInterface>,
 	[[stone, <AWWayofTime:AlchemicalWizardrybloodRune:0>, stone],
 	 [stone, <minecraft:comparator>, stone],
 	 [stone, stone, stone]]);
-	 
+
 recipes.remove(<Sanguimancy:resource:1>);
 recipes.addShaped(<Sanguimancy:resource:1>,
 	[[null, <minecraft:skull:1>, null],
 	 [null, stone, null],
 	 [<ore:gemDiamond>, stone, <ore:ingotGold>]]);
 
+// cake
+recipes.remove(<minecraft:cake>);
+recipes.addShaped(<minecraft:cake>,
+	[[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>],
+	 [<ore:foodSugar>, <minecraft:egg>, <ore:foodSugar>],
+	 [<ore:cropWheat>, <ore:cropWheat>, <ore:cropWheat>]]);

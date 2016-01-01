@@ -206,6 +206,16 @@
             "name":"foodVeggie"
         },
 		
+		// foodSugar
+		{
+			"item":"minecraft:sugar",
+			"name":"foodSugar"
+		},
+		{
+			"item":"Growthcraft|Bees:grc.honeyJar",
+			"name":"foodSugar"
+		},
+		
 		// slabStone
 		{
             "item":"enhancedbiomes:enhancedbiomes.tile.slabSEB",

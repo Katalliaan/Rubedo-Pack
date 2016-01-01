@@ -12,6 +12,9 @@
 		{
 			"name" : "Oceancraft:BigFishCooked"
 		},
+		{
+			"name": "ForbiddenMagic:TaintFruit"
+		},
 		
 		{
 			"name" : "kitchenCraftFoods:veggie",
@@ -50,5 +53,54 @@
 			"name" : "kitchenCraftFoods:meat",
 			"meta" : 5
 		}
-    ]
+    ],
+	
+	// custom food values
+	"foods": [
+		{
+			"name": "minecraft:bread",
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "minecraft:cookie",
+			"hunger": 2
+		},
+		{
+			"name": "minecraft:pumpkin_pie",
+			"hunger": 7,
+			"saturationModifier": 0.4
+		},
+		{
+			"name": "minecraft:mushroom_stew",
+			"hunger": 5,
+			"saturationModifier": 0.48
+		},
+		{
+			"name": "Automagy:foodstuff",
+			"hunger": 5,
+			"saturationModifier": 0.48
+		},
+		{
+			"name": "WitchingGadgets:item.WG_MagicFood",
+			"meta": 1,
+			"hunger": 4,
+			"saturationModifier": 0.3
+		},
+		{
+			"name": "Steamcraft:steamedBeef",
+			"hunger": 2,
+			"saturationModifier": 0.15
+		},
+		{
+			"name": "Steamcraft:steamedPorkchop",
+			"hunger": 2,
+			"saturationModifier": 0.15
+		},
+		{
+			"name": "Growthcraft|Rice:grc.riceBall",
+			"hunger": 2,
+			"saturationModifier": 0.25
+		}
+	]
 }

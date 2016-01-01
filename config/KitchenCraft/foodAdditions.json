@@ -2,12 +2,14 @@
 	[{
 		"name": "sandwich",
 		"food": "5",
+		"saturation": "0.275",
 		"isMeat": true
 	},
 	
 	{
 		"name": "sushi",
 		"food": "5",
+		"saturation": "0.3",
 		"isMeat": false,
 		"makeSeed": false
 	},
@@ -15,18 +17,21 @@
 	{
 		"name": "pot_pie",
 		"food": "8",
+		"saturation": "0.54",
 		"isMeat": true
 	},
 	
 	{
 		"name": "curry",
 		"food": "9",
+		"saturation": "0.575",
 		"isMeat": true
 	},
 	
 	{
 		"name": "seafood",
 		"food": "9",
+		"saturation": "0.565",
 		"isMeat": false,
 		"makeSeed": false
 	},
@@ -34,24 +39,28 @@
 	{
 		"name": "stew",
 		"food": "9",
+		"saturation": "0.59",
 		"isMeat": true
 	},
 	
 	{
 		"name": "casserole",
 		"food": "9",
+		"saturation": "0.5875",
 		"isMeat": true
 	},
 	
 	{
 		"name": "roast",
 		"food": "12",
+		"saturation": "0.75",
 		"isMeat": true
 	},
 	
 	{
 		"name": "salad",
 		"food": "12",
+		"saturation": "0.69",
 		"isMeat": false,
 		"makeSeed": false
 	}]
