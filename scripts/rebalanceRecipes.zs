@@ -15,3 +15,12 @@ recipes.addShaped(<Steamcraft:rocket>,
 recipes.addShaped(<Steamcraft:rocket>,
 	[[null, <ore:plateSteamcraftSteel>, null],
 	 [<ore:plateSteamcraftSteel>, <ore:dustGunpowder>, <ore:plateSteamcraftSteel>]]);
+
+recipes.remove(<ThaumicTinkerer:darkQuartzItem>);
+recipes.addShaped(<ThaumicTinkerer:darkQuartzItem> * 8,
+	[[<ore:crystalNetherQuartz>, <ore:crystalNetherQuartz>, <ore:crystalNetherQuartz>],
+	 [<ore:crystalNetherQuartz>, <minecraft:coal:*>, <ore:crystalNetherQuartz>],
+	 [<ore:crystalNetherQuartz>, <ore:crystalNetherQuartz>, <ore:crystalNetherQuartz>]]);
+
+recipes.remove(<Botania:flightTiara:2>);
+recipes.addShapeless(<Botania:flightTiara:2>, [<Botania:flightTiara:*>, <ThaumicTinkerer:darkQuartzItem>]);
